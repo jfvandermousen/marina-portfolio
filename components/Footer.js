@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>Copyright 2022 - Marina Collages</footer>
+    <footer>
+      <p>Copyright 2022 - Marina Ermanni</p>
+    </footer>
   )
 }
 

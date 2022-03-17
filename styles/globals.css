@@ -23,17 +23,39 @@ html {
   align-items: center;
   margin: 0.5rem auto 5rem;
  }
+ .logo h1 {
+   font-size: 2rem;
+ }
 
  .menu a {
-   text-decoration: none;
    padding: 0.5rem;
    color: #111;
  }
 
- footer {
-   padding: 1.5rem 0;
+ a {
+  text-decoration: none;
  }
 
- .error-page h2,p {
-   font-weight: 800;
+ footer {
+   position:absolute;
+   bottom: 0;
+   left: 0;
+   padding: 2rem;
+   font-weight: 200;
+ }
+ footer > p {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+ 
+
+ .error-page h2, p {
+   font-weight: 100;
  }

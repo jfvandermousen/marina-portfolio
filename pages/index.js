@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Marina collages</title>
+        <title>Marina Ermanni | Home</title>
         <meta name="description" content="Collages portfolio of Marina Ermanni" />
+        <meta name="keywords" content="Marina Ermanni, collages, portfolio, artistic, composition, paper, photographs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className={styles.title}>Homepage Collages</h1>
