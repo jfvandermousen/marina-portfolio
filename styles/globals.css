@@ -6,18 +6,34 @@ html {
 
 
  body {
+   background: #fdfdfd;
    font-family: 'Playfair Display', serif;
+   font-weight: 400;
    color: #111;
+   padding: 0 2rem;
+ }
+
+ .content {
+   margin: 0 auto;
  }
 
  nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0.5rem auto 5rem;
  }
-
 
  .menu a {
    text-decoration: none;
    padding: 0.5rem;
+   color: #111;
+ }
+
+ footer {
+   padding: 1.5rem 0;
+ }
+
+ .error-page h2,p {
+   font-weight: 800;
  }
