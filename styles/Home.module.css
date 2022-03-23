@@ -1,7 +1,18 @@
-.container {
-
-  min-height: 100vh;
+.main {
   padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  gap: 25px;
+  grid-template-columns:1fr 2fr 1fr;
+  grid-template-rows: 3;
+  width: 90%;
+}
+.container img {
+  object-fit: contain;
 }
 
 

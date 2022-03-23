@@ -1,19 +1,36 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.main}>
       <Head>
         <title>Marina Ermanni | Home</title>
         <meta name="description" content="Collages portfolio of Marina Ermanni" />
         <meta name="keywords" content="Marina Ermanni, collages, portfolio, artistic, composition, paper, photographs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className={styles.title}>Homepage Collages</h1>
-      <p>Do occaecat laboris incididunt cillum enim ipsum quis laboris ipsum ipsum. Magna incididunt amet et ullamco Lorem cupidatat cupidatat pariatur ex commodo consectetur officia mollit ut. Cillum consectetur laboris laborum ad ea veniam dolore laboris Lorem enim. Nulla culpa et ipsum tempor excepteur cillum deserunt adipisicing qui duis aute mollit reprehenderit labore. Deserunt qui qui id laboris. Officia nostrud ea sit excepteur minim. Anim Lorem dolore nisi veniam aute laboris.</p>
-      <p>Do occaecat laboris incididunt cillum enim ipsum quis laboris ipsum ipsum. Magna incididunt amet et ullamco Lorem cupidatat cupidatat pariatur ex commodo consectetur officia mollit ut. Cillum consectetur laboris laborum ad ea veniam dolore laboris Lorem enim. Nulla culpa et ipsum tempor excepteur cillum deserunt adipisicing qui duis aute mollit reprehenderit labore. Deserunt qui qui id laboris. Officia nostrud ea sit excepteur minim. Anim Lorem dolore nisi veniam aute laboris.</p>
-    </div>
+      <div className={styles.container}>
+        <Image className="" 
+              src='/1.jpg' 
+              alt="error page turn back" 
+              height={410} width={300}
+              layout='intrinsic'
+              />
+              <Image className="" 
+            src='/2.jpg' 
+            alt="error page turn back" 
+            height={775} width={600}
+            layout='intrinsic'
+            />
+            <Image className="" 
+            src='/3.jpg' 
+            alt="error page turn back" 
+            height={410} width={300}
+            />
+
+      </div>
+ </div>
   )
 }

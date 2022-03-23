@@ -17,12 +17,14 @@ const ErrorPage = () => {
     },3000)
   },[router])
 */
-
-
   return (
     <div className="error-page">
         <div className="img-bloc">
-            <Image className="error-img" src='/walk_error_page.jpg' alt="error page turn back" height={525} width={354}/>
+            <Image className="error-img" 
+            src='/walk_error_page.jpg' 
+            alt="error page turn back" 
+            height={525} width={354}
+            layout=''/>
           </div>
         <div>
           <h2>Oups there is nothing here !</h2>
